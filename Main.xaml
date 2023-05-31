@@ -1,0 +1,243 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="681.6,3334.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="545.6,3269.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Product Search - Gartner Peer Insights" sap:VirtualizedContainerService.HintSize="483.2,3157.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="a27099dd-2574-4ddc-bf78-ed6eda35b94f" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,2940.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="valor1" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="387.2,52.8" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="1" Title="1">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[valor1]</OutArgument>
+              </ui:InputDialog.Result>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:InputDialog>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Its completely'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,52.8" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="a27099dd-2574-4ddc-bf78-ed6eda35b94f" Text="[valor1]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.gartner.com/reviews/robotic-process-automation-software/form?reviewId=4764344&amp;refresh=" CvElementArea="390, 710, 782, 94" CvTextArea="409, 731, 480, 22" CvTextArgument="Its completely the best platform that i've ever used." CvType="InputBox" DesignTimeRectangle="394, 710, 774, 92" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'Its completely'" FullSelectorArgument="&lt;webctrl id='review-summary' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl id='review-summary' tag='TEXTAREA' type='' class='textArea form-control validate[required,maxSize[1800],minSize[50]]' aaname='' /&gt;" Guid="f9789e82-de07-47f2-85e3-e1c14060d6cd" ImageBase64="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" InformativeScreenshot="a4d7c1afe853cbe6c7ac8724873235c8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Search - Gartner Peer Insights' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" />
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="387.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="2" Title="2">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[valor1]</OutArgument>
+              </ui:InputDialog.Result>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:InputDialog>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TEXTAREA lessonslearned…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="a27099dd-2574-4ddc-bf78-ed6eda35b94f" Text="[valor1]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.gartner.com/reviews/robotic-process-automation-software/form?reviewId=4764344&amp;refresh=" CvElementArea="390, 678, 782, 96" CvTextArea="409, 701, 402, 22" CvTextArgument="List at least 3 specific features or strengths" CvType="InputBox" DesignTimeRectangle="394, 680, 774, 93" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'TEXTAREA lessonslearned…'" FullSelectorArgument="&lt;webctrl id='lessonslearned-like-most' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl id='lessonslearned-like-most' tag='TEXTAREA' type='' class='textArea form-control validate[required]' aaname='' /&gt;" Guid="5f2e309a-f742-46b2-b655-7d976064fb20" ImageBase64="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" InformativeScreenshot="bba4772102749dc0615d1e0c6028cc7c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Search - Gartner Peer Insights' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_2" />
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="387.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="3" Title="3">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[valor1]</OutArgument>
+              </ui:InputDialog.Result>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:InputDialog>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '* This field is required'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="a27099dd-2574-4ddc-bf78-ed6eda35b94f" Text="[valor1]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.gartner.com/reviews/robotic-process-automation-software/form?reviewId=4764344&amp;refresh=" CvElementArea="390, 737, 782, 95" CvTextArea="409, 759, 405, 23" CvTextArgument="List at least 3 specific issues or weaknesses" CvType="InputBox" DesignTimeRectangle="394, 738, 774, 93" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'TEXTAREA lessonslearned…'" FullSelectorArgument="&lt;webctrl id='lessonslearned-dislike-most' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl id='lessonslearned-dislike-most' tag='TEXTAREA' type='' class='textArea form-control validate[required]' aaname='' /&gt;" Guid="c3893d45-3802-4064-bb12-33a3c007927c" ImageBase64="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" InformativeScreenshot="ef6d6d3078ef1911a68f490236ad12ea.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Search - Gartner Peer Insights' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="987, 679, 231, 53" CvTextArea="1015, 697, 148, 18" CvTextArgument="This field is required" CvType="Button" DesignTimeRectangle="990, 683, 225, 48" ElementType="Text" FriendlyName="'* This field is required'" FullSelectorArgument="&lt;webctrl aaname='* This field is required' class='formErrorContent' parentid='surveyForm' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='* This field is required' class='formErrorContent' parentid='surveyForm' tag='DIV' type='' check:innerText='* This field is required' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOUAAAA0CAYAAAB1q/+cAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAVLSURBVHhe7Z3BbhRHFEXnU+AT+IbkA7xmAT+QFZ/CX9hrVhFLUIiElAXxxjviBZGiWKBACMZ2p6/tO7rzeF1dHvcMNe175aOe7n716lX1u8yMWXjRWZbVlGxKy2pMg6Y8ODjuHj/+tXvw4Ofu/v1nxpgJgJ/gK/hrSN+Y8vDwQ7e39yJNaIyZDvgMfotaMSUC/M5ozPaA36IxV0zpd0hjtg98p1qaEp9xswHGmM2j3zGXpsSXzyzYGLN54D9qaUp/lzTm+wH/UUtTZoHGmO1B2ZTGNAJlUxrTCJRNaUwjUDalMY1A2ZTGNAJlUxrTCJRNaUwjUDalMY1A2ZTGNAK1EVM+efJbd3LypXv69Ci9//DhL927d5+vZx7W/v4fl3z8eHaZM8sFcA8xiM3u16A1IderV3+Pzqtw/MuXf6X3AWOOjv5J7wOMRwxis/utU7MPtwF7t8v7U4Ka1JQ0x9u3ny43782b91WNzXHZg6wx5RRg7tvMM5UpTRmbck1gJAgNis2zKVdjbMr1sSnXgAZ7/frk8iNsTZPXmPL58z+vK72SflTleF5j86s0PoIHrUId2T8GuK7SnJkpYx34BDFmSozXpsMcKr2XgXjEYK4Yr+s8PT1Pv15oDF5rPVyPrpFjhmJK9SBGpftJtB7m0RxzgprclHwI2DQ+1CxOGTMlpA8CedUwako2BWI0x1ATEsytOTFGz3Ffc+CIc9bMeeN5rBvS2iIYzzGx7mxtEe5XjMF5XB+E41AMziHWw/m5Rh03FDNUD+6X9hPEenAP4lyMmwvURj6+3hRsOjY/PmwQGxPwAbKhOB7npVwlEK8NgFw8H8qpY7JmjHUzT2xQBePZdLGmGmr2i6iZshiuiTFxjVmeGFPah5hH11tTj46dA9ROmDI2ZnxgHM9zNAl0k4enDYFznRevY2MBnCMGx9iMOMb5GVNrSq4T4trG0Lp5La4ti83GgZLhamKyvLg2tp819ej1OUDN0pQAuVQlI4DYuDovXg+JzRWbcah5cL1UC8brOK6NyppZyfYr7oWKsXH9Opb1xDUSXWuMyeqp2c+aevT6HKBma0oFeaEsP4lNoPPi9ZgZYjPiGJuHMTcxpcJ1xv1Qsv2Ka8vIxoGS4Wpisrw1+1lTj16fA9SdMCXAwxwzg86j88b5iMZkzRgbj3WO1VFqOuRDjqGG1pr0WmYCnStbI9fEGJ5r/UMxug+xnmyuGFtTj46dA9TsTJnlGmoCBfE6T5wX95EDuXAe54nNmDUQmhmqNWWsCWBsqSmz/QIYp9ezPYnz4RyKayjFALzGddwfqgf3S/sJxuZi3FygZvlOyXNVllvBfZ0nm5dNQWnO2Ix6jVrn/ynjnLGmyJAJAOZVcb8UnQ91xP8XjGtCTq2Z97kPpXri2jhG0ZqzeuYE1YQpTbvAFHM1QWtQNqUpYlNuD8qmNEVsyu1B2ZTGNAJlUxrTCJRNaUwjUDalMY1A2ZTGNAJlUxrTCJRNaUwjUDalMY1ALU3pv+RszPcj/UvO+JvrWbAxZvPAf9TSlAcHx2mwMWbzwH/U4uKi68je3ot0gDFmc8B3qkXvxY78fvjB3y2N2SLw22HvO9WKKWlMv2PeYX786XZkOU0KfBYNCS3Oeydm7O8fd4/6L59+57yDZGarIctlVoCf8Esd/Q4Ztfh63nXGKPd6g61Dlms6Lr7hrH/zOOuP/c/y2P9c/Y6ER2FXtPjSr8wYJTNcDVmuqfjv6xU8PwXBsDDmijnBtSF3yZiLT/3KjInc+6E3WiXZ+Gm5EM67f/vj596ggIaFSWlQmnM3Tdl1/wMQiYhSsjWgvwAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_3" />
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="387.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_4" IsPassword="False" Label="4" Title="4">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[valor1]</OutArgument>
+              </ui:InputDialog.Result>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:InputDialog>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TEXTAREA lessonslearned…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="a27099dd-2574-4ddc-bf78-ed6eda35b94f" Text="[valor1]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.gartner.com/reviews/robotic-process-automation-software/form?reviewId=4764344&amp;refresh=" CvElementArea="392, 664, 781, 96" CvTextArea="409, 687, 219, 20" CvTextArgument="Please add a comment." CvType="InputBox" DesignTimeRectangle="394, 667, 774, 93" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'TEXTAREA lessonslearned…'" FullSelectorArgument="&lt;webctrl id='lessonslearned-you-did-differently-v2' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl id='lessonslearned-you-did-differently-v2' tag='TEXTAREA' type='' class='textArea form-control validate[]' aaname='' /&gt;" Guid="c86fe00b-a97e-474c-8d5c-605ed9ef8caa" ImageBase64="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" InformativeScreenshot="38ced9d9846991392a6e2cee6c3ccf0c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Search - Gartner Peer Insights' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_4" />
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="387.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_5" IsPassword="False" Label="5" Title="5">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[valor1]</OutArgument>
+              </ui:InputDialog.Result>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:InputDialog>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TEXTAREA lessonslearned…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="a27099dd-2574-4ddc-bf78-ed6eda35b94f" Text="[valor1]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.gartner.com/reviews/robotic-process-automation-software/form?reviewId=4764344&amp;refresh=" CvElementArea="391, 467, 782, 97" CvTextArea="409, 491, 219, 19" CvTextArgument="Please add a comment." CvType="InputBox" DesignTimeRectangle="394, 470, 774, 93" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'TEXTAREA lessonslearned…'" FullSelectorArgument="&lt;webctrl id='lessonslearned-advice' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl id='lessonslearned-advice' tag='TEXTAREA' type='' class='textArea form-control validate[]' aaname='' /&gt;" Guid="70079415-ffd3-4ece-85ab-888c0959808a" ImageBase64="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" InformativeScreenshot="02ffde3268770cc345964c83ce0e6c25.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Search - Gartner Peer Insights' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAUPSURBVGhD7Zn5U5ZVFMdZfEFFDXJLNAPJ5GUTZF9fbJk2tcZJ0VxQKYvGBTNKixQxd0lNGhtMcbcMAcWlqXFtKpusqWmZzFJs+j+O53sRxYfzrD68jDPvD59h3ud57r3ne+695557CCpu/e//4tYbdL8SENDTBAT0NAEBxrRR8fFO4Lf4nXNcFeA7dp0Kj16l7IbLlLrtHCWuPUHe6iaKX9FI3lXNlLTupHqevfsyFTb+rb6X+rGDKwJgSObOHyh20acU+dwy6pNfTp6MedQrrZRCx86i0JSZ6i9+4zneP/DsOxSzcCdlfPId+Zqvif1a4Z4EwNupH52noTM2KAOD4qfaJoTFDXqphlJqv1azIo1jhCMBPl7P2Q0/0cPz6yg8Zz4FeUtE4+wQxjMzrLSWMuq/t7W07Atg49PqLtKApyspOHG6aIxTghOmUcTjFZS69eytTS+Mr8GeAO40fce31P+ppaZeD+b3Ickz2td+6mz1NyTpZfVc+h5AQNSkKsre87M8voAtAVm7fqQBz1QaGh/KxkY+v5xG8PIaveygij7emhaK52j06NsHaMSr2ynqhfcpLLPsrn4wm4Om1NgyHlgWUHDkLxpcskbXeHgvcsK7lLL5K8o79DsVNf+r9srtM4DBbzzP/+xPGvfxNxQ950M1M2gL43P2/SKObYQlAdhU8SuPKu9KxiOSDJ+3VRkutdejqOUaJa0/TUPYMQgK0jdmWBKQd/gPevDFFaL3YfzI8h0qpEptzWlrb4tZEt8bY0nA2C1neCOWdjEeggZPWa0ESu38gbkA9szwsm1djWc84+bwEjjl2HtuYCoAp2PfogWiAKQD2JBSO39hKiCj/pKK55KAmIpd7ZFGaOcvTAUkrGkVDx/EbewNqY0WzCIckc6JmxVw3vg4Qkl9aTEVEMeHj9Z4gAzTatzG2dA79zUVhq2ApZm7/1exLy2GArA8kPJKAjycGhdYyR65D+/qY8owqR+Jfk8soVyLzjERcJ1iFtSLg3jS51pLf1nAY1WfqxmT+pFwTQAGH7V0rzgIDMo9+JvcrhOYxbi39lGIjczVPQHMGL4OiicwZ5Zp2y+IbTqDNCSGb2oqE+WcR4u2X+CqAOTmenk/PGt6iPH7LL4DYyNrwewi1db266oAJGi4x2oHAVET31NZqtTOCnCO1LerArAEBk6u7jIIwODwpNNyiV8EgDFVR9Qa1g6EA+6hmRsdz4LfBCBX78d3Ve1AAKWSuMr96qIitTXCbwJg3CN8oOltZmzEUUsaqLDpH7G9Hn4TAJCfoGPtYB0g4Yueu0UVuAobrxonefwOl5hEzrOQkmv76hYBMCh5w2kKy3qly4AdIK73KXiDhs3aRKOXH1bFKlQxkMhBGO7ByRu/5Mv+IYouraWI4kXiWdAtAoAPd+PqJtFrnekoqSDdQOELiVzvvNcpnMX34rYqPRcOxw66TQDARRxRKZyNMjLiXuj/5JsswIVsVA+IwPIYOHml45qoCDsEM4XUo+CLK+LYWhwJUPCewCmNckvE+MW6eY0lsHfyy1V1A3ulyEaFw7mA27TxQXZF1f6HTl9HEb6F5Mksu1NKZOOwJxQchrH+EXZRmcMmHjJtLSXwfUHVlIwilw4uCLgDzoscvknhnxgoJ6KUGFuxW12KQCyfFYhOiR8cp7S6Cyodb786Or9XuyrgLuBNBuEX0Utx65kTT+vRfQL8REBATxMQ0NPc5wJu0E3Lcc3OGh4JtgAAAABJRU5ErkJggg==" InformativeScreenshot="2d4bb5ed0bdd68b562f949fdf78e0a94.jpg" Selector="&lt;html app='chrome.exe' title='Product Search - Gartner Peer Insights' /&gt;" Title="Product Search - Gartner Peer Insights" Url="https://www.gartner.com/reviews/robotic-process-automation-software/form?reviewId=4764344&amp;refresh=" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
